@@ -21,7 +21,7 @@ public class RBTree<T extends Comparable<T>> {
     }
 
     public void putAll(Collection<T> collection) {
-        collection.forEach(this::put);
+        collection.forEach(this);
     }
 
     public void put(T value) {
